@@ -9,7 +9,7 @@ This project simulates a 1D random walk for multiple walkers and visualizes thei
 - User input for number of steps, probability of moving up, and number of walkers
 
 ## Requirements
-- Python 3.8+
+- Python 3.13+
 - numpy
 - matplotlib
 
