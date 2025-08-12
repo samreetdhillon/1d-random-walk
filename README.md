@@ -22,7 +22,28 @@ This project simulates a 1D random walk for multiple walkers and visualizes thei
    ```bash
    python 1d-random-walk.py
    ```
+
 3. Follow the prompts to enter the number of steps, probability of moving up, and number of walkers.
+
+## Sample Output
+
+With the following user inputs:
+- Number of steps: 100
+- Probability of moving up: 0.5
+- Number of walkers: 1000
+
+
+You will see outputs similar to:
+
+**Diffusion Coefficient (D):**
+- Theoretical value: D = 0.5
+- Estimated value (example): D ≈ 0.49
+
+### Animated Plot
+![Sample Trajectories and MSD](plots.png)
+
+### Final Displacement Histogram
+![Final Displacement Histogram](final.png)
 
 - Animated plot of up to 10 random walker trajectories and MSD
 - Histogram of final displacements
